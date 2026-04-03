@@ -1,0 +1,31 @@
+[
+  { "id": 1, "booked": false },
+  { "id": 2, "booked": false },
+  { "id": 3, "booked": false },
+  { "id": 4, "booked": false },
+  { "id": 5, "booked": false },
+
+  { "id": 6, "booked": false },
+  { "id": 7, "booked": false },
+  { "id": 8, "booked": false },
+  { "id": 9, "booked": false },
+  { "id": 10, "booked": false },
+
+  { "id": 11, "booked": false },
+  { "id": 12, "booked": false },
+  { "id": 13, "booked": false },
+  { "id": 14, "booked": false },
+  { "id": 15, "booked": false },
+
+  { "id": 16, "booked": false },
+  { "id": 17, "booked": false },
+  { "id": 18, "booked": false },
+  { "id": 19, "booked": false },
+  { "id": 20, "booked": false },
+
+  { "id": 21, "booked": false },
+  { "id": 22, "booked": false },
+  { "id": 23, "booked": false },
+  { "id": 24, "booked": false },
+  { "id": 25, "booked": false }
+]
