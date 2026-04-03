@@ -8,7 +8,7 @@ export default function SeatGrid() {
   const [bookingDetails, setBookingDetails] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5001/seats")
+    fetch("https://seat-booking-kg35.onrender.com/seats")
       .then((res) => res.json())
       .then((data) => setSeats(data));
   }, []);
