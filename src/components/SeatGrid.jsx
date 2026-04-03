@@ -6,6 +6,7 @@ export default function SeatGrid() {
   const [selectedSeats, setSelectedSeats] = useState([]);
   const [showBookingModal, setShowBookingModal] = useState(false);
   const [bookingDetails, setBookingDetails] = useState(null);
+  const BASE_URL = "https://seat-booking-kg35.onrender.com";
 
   useEffect(() => {
     fetch("https://seat-booking-kg35.onrender.com/seats")
@@ -37,9 +38,9 @@ export default function SeatGrid() {
         selectedSeats.includes(seat.id),
       );
       const bookingPromises = selectedSeatObjects.map((seat) =>
-        fetch(`http://localhost:5001/book/${seat.seatLabel}`, {
-          method: "POST",
-        }).then((res) => res.json()),
+        fetch(`${BASE_URL}/book/${seat.seatLabel}`, { method: "POST" }).then(
+          (res) => res.json(),
+        ),
       );
 
       const results = await Promise.all(bookingPromises);
