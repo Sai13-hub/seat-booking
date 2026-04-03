@@ -1,4 +1,4 @@
-import SeatGrid from "./components/seatgrid";
+import SeatGrid from "./components/SeatGrid";
 
 function App() {
   return <SeatGrid />;
